@@ -1,0 +1,12 @@
+server:
+  port: 8160
+spring:
+  application:
+    name: user
+  cloud:
+    nacos:
+      discovery:
+        server-address: http://127.0.0.1:8848/nacos
+#        username: nacos
+#        password: nacos
+#        namespace: public
